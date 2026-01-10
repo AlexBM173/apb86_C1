@@ -12,6 +12,7 @@ Contents
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
    Getting started
       Operating systems
       Graphical user interfaces
