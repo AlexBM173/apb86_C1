@@ -1,0 +1,4 @@
+project = "C1 Research Computing and Software Development"
+author = "Alex Blake Martín"
+copyright = "2026, Alex Blake Martín"
+version = "0.1"
