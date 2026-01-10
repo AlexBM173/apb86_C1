@@ -109,8 +109,3 @@ Contents
    Continuous integration
       Webhooks
       GitHub actions
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
