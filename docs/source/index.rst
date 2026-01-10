@@ -14,16 +14,27 @@ Contents
    :caption: Contents:
 
    Getting started
+
       Operating systems
+
       Graphical user interfaces
+
       Command line interfaces
+
       Shell
+
       Linux
+
       Useful terminal commands
+
       File system hierarchy
+
       Hidden files
+
       File permissions
+
       Administrator rights
+      
       Home directory
 
    Environments
@@ -122,7 +133,7 @@ Contents
 
    Deploying an app
       Dockerfiles
-      
+
    Continuous integration
       Webhooks
       GitHub actions
