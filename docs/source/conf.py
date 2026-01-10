@@ -10,6 +10,7 @@ project = 'C1 Research Computing and Software Development'
 copyright = '2026, Alex Blake Martín'
 author = 'Alex Blake Martín'
 release = '0.1'
+master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -24,5 +25,5 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'classic'
 html_static_path = ['_static']
