@@ -1,5 +1,5 @@
 10. Tests
-=====
+=========
 
 Tests are important parts of software development as they ensure comprehensive verification that your code is functioning as expected. Test
 cases test individual components of your code with specific conditions, while test suites are collections of test cases that are run together.

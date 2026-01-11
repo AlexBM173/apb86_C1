@@ -1,2 +1,2 @@
-15. Frontend: Next.js
-=================
+15. Frontend development with Next.js
+=====================================

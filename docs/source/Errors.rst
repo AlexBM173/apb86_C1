@@ -1,5 +1,5 @@
 9. Errors
-======
+=========
 
 Errors occur in Python programs for a variety of reasons and cause the program to crash. Exceptions are a way of handling errors, or can be raised
 intentionally to signal that something unexpected has occurred, usually as a result of a logical error that would not be caught by Python itself,

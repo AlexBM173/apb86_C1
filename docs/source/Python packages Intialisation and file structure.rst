@@ -1,2 +1,2 @@
-5. Python package: Initialisation and file structure
-=================================================
+5. Python package initialisation and file structure
+===================================================

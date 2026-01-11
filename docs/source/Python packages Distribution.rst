@@ -1,2 +1,2 @@
-6. Python packages: Distribution
-=============================
+6. Python packages distribution
+===============================
