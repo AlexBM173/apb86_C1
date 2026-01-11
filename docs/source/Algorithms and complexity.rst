@@ -13,8 +13,7 @@ iii. Otherwise, set :math:`m = n` and :math:`n = r`, and repeat from step i.
 An algorithm is a finite set of rules giving a sequence of operations for solving a specific type of a problem. An algorithm has the properties:
 
 - Finiteness: An algorithm must termiante in a finite number of steps.
-- Definiteness: Each algorithm must be precisely defined; algorithms must be unambiguously defined for each case. This requires inputs types to be
-well specified.
+- Definiteness: Each algorithm must be precisely defined; algorithms must be unambiguously defined for each case. This requires inputs types to be well specified.
 - Input: An algorithm has zero or more inputs.
 - Output: An algorithm has one or more outputs.
 - Effectiveness: All operations must be able to be performed exactly and in a finite length of time.
