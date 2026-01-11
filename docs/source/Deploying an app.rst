@@ -1,2 +1,2 @@
-Deploying an app
+16. Deploying an app
 ================

@@ -1,4 +1,4 @@
-Tests
+10. Tests
 =====
 
 Tests are important parts of software development as they ensure comprehensive verification that your code is functioning as expected. Test

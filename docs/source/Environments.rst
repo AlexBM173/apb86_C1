@@ -1,4 +1,4 @@
-Environments
+2. Environments
 ============
 
 1. Bash environments

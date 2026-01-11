@@ -1,2 +1,2 @@
-Automatic documentation
+8. Automatic documentation
 =======================

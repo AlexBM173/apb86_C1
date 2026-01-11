@@ -1,4 +1,4 @@
-Errors
+9. Errors
 ======
 
 Errors occur in Python programs for a variety of reasons and cause the program to crash. Exceptions are a way of handling errors, or can be raised
