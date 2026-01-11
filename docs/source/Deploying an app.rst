@@ -35,7 +35,7 @@ INSTRUCTION arguments
 Docker runs instructions in the order they appear in the Dockerfile. The first isntruction must be a ``FROM`` instruction which specifies the
 base image to use. Here is a basic example of a Dockerfile for a Python application:
 
-```
+.. code-block:: dockerfile
 FROM python:3.13
 WORKDIR /usr/local/app
 
@@ -52,4 +52,3 @@ RUN useradd app
 USER app
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
-```
