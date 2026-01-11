@@ -6,9 +6,6 @@
 C1 Research Computing and Software Development documentation
 ============================================================
 
-Contents
---------
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
