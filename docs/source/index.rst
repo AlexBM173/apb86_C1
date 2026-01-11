@@ -204,3 +204,7 @@ C1 Research Computing and Software Development documentation
       Webhooks
       
       GitHub actions
+
+   Algorithms and complexity
+
+   
