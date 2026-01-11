@@ -265,7 +265,7 @@ A better way of implementing the algorithm recursively is to use an accumulator:
         if (n == 0) {
             return b;
         } else {
-            return fact2(n - 1, a + b, b);
+            return fact2(n - 1, a * n, b);
         }
     }
 
@@ -283,8 +283,6 @@ as follows:
     C(n) = n - 1 + \frac{1}{n} \sum_{k=0}^{n-1} (C(k) + C(n - k - 1))
 
     n C(n) = n(n - 1) + 2 \sum_{k=0}^{n-1} C(k)
-
-    (n + 1) C(n + 1) - n C(n) = 2 n C(n) + 2 n
 
     (n + 1) C(n + 1) = (n + 2) n + (2 n + 2) C(n)
 
