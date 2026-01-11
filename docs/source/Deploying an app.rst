@@ -36,19 +36,20 @@ Docker runs instructions in the order they appear in the Dockerfile. The first i
 base image to use. Here is a basic example of a Dockerfile for a Python application:
 
 .. code-block:: dockerfile
-FROM python:3.13
-WORKDIR /usr/local/app
+    
+    FROM python:3.13
+    WORKDIR /usr/local/app
 
-# Install the application dependencies
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+    # Install the application dependencies
+    COPY requirements.txt ./
+    RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy in the source code
-COPY src ./src
-EXPOSE 8080
+    # Copy in the source code
+    COPY src ./src
+    EXPOSE 8080
 
-# Setup an app user so the container doesn't run as the root user
-RUN useradd app
-USER app
+    # Setup an app user so the container doesn't run as the root user
+    RUN useradd app
+    USER app
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+    CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
