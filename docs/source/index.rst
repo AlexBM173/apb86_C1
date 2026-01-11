@@ -207,4 +207,13 @@ C1 Research Computing and Software Development documentation
 
    Algorithms and complexity
 
+      Introduction to complexity
+
+      Fibonacci sequence
+
+      Sorting algorithms
+
+      Recursiveness
+
+      Divide and conquer algorithms
    
