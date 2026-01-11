@@ -226,7 +226,7 @@ identifies a permutation. The constraint on the :math:`b_j` is :math:`0 \le b_j 
 
 .. math::
 
-    C_i(\sigma)=1+\Card(\{j | j < i \text{ and } a_j > a_i\})
+    C_i(\sigma)=1+\text{Card}(\{j | j < i \text{ and } a_j > a_i\})
 
     C(\sigma) = \sum_{i=1}^{n} C_i(\sigma) = n - 1 + I(\sigma)
 
