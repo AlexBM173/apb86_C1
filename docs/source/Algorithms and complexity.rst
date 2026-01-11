@@ -310,3 +310,29 @@ The Master Theorem: Suppose :math:`T(n)=aT(\frac{n}{b}+\mathcal{O}(1))+\mathcal{
 i. If :math:`a < b^d`, then :math:`T(n) = \Theta(n^d)`.
 ii. If :math:`a = b^d`, then :math:`T(n) = \Theta(n^d \log n)`.
 iii. If :math:`a > b^d`, then :math:`T(n) = \Theta(n^{\log_b a})`.
+
+Let's look at an integer multiplication algorithm. Let :math:`x,y` be two integers written in binary as:
+
+.. math::
+
+    x = \sum_{i=0}^{n-1}x_i b^i = \sum_{i=0}^{k-1}x_ib^i + \sum_{i=k}^{n-1}x_ib^i = x_1 b^k + x_0
+
+    y = y_1 b^k + y_0
+
+where :math:`k = \lceil n/2 \rceil`. Then:
+
+.. math::
+
+    x y = (x_1 b^k + x_0)(y_1 b^k + y_0) = x_1 y_1 b^{2k} + (x_1 y_0 + x_0 y_1) b^k + x_0 y_0
+
+Each problem is a smaller sub problem that we can solve recursively. The time complexity is:
+
+.. math::
+
+    T(n) = 4 T\left(\frac{n}{2}\right) + \mathcal{O}(n)
+
+Using the Master Theorem, we have :math:`a=4`, :math:`b=2`, and :math:`d=1`. Since :math:`a > b^d`, we are in case iii and thus:
+
+.. math::
+
+    T(n) = \Theta(n^{\log_2 4}) = \Theta(n^2)
