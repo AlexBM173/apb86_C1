@@ -45,6 +45,7 @@ C1 Research Computing and Software Development documentation
       Workflow with environments
 
    Conda
+
       Conda vs Python virtual environments
 
       Conda virtual environments
@@ -150,7 +151,7 @@ C1 Research Computing and Software Development documentation
 
       Decorators
 
-      numpy universal functions
+      NumPy universal functions
 
       Logging
 
