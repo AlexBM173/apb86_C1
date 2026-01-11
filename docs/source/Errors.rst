@@ -32,6 +32,7 @@ occurs. Such a block is composed of a try clause, which contains code that may r
 code that is executed if a specific exception is raised. For example:
 
 .. code-block:: python
+
 try:
     x = 1 / 0
 except ZeroDivisionError:
@@ -41,6 +42,7 @@ When an exception is raised, it may have values associated with it, known as arg
 the exception as a variable using the `as` keyword. For example:
 
 .. code-block:: python
+    
 try:
     x = int("not a number")
 except ValueError as e:
