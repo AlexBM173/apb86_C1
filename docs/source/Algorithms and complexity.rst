@@ -280,19 +280,17 @@ as follows:
 
 .. math::
 
-    \begin{gather}
-    C(n) = n - 1 + \frac{1}{n} \sum_{k=0}^{n-1} (C(k) + C(n - k - 1)) \\
+    C(n) = n - 1 + \frac{1}{n} \sum_{k=0}^{n-1} (C(k) + C(n - k - 1))
 
-    n C(n) = n(n - 1) + 2 \sum_{k=0}^{n-1} C(k) \\
+    n C(n) = n(n - 1) + 2 \sum_{k=0}^{n-1} C(k)
 
-    (n + 1) C(n + 1) - n C(n) = 2 n C(n) + 2 n \\
+    (n + 1) C(n + 1) - n C(n) = 2 n C(n) + 2 n
 
-    (n + 1) C(n + 1) = (n + 2) n + (2 n + 2) C(n) \\
+    (n + 1) C(n + 1) = (n + 2) n + (2 n + 2) C(n)
 
-    \frac{C_n}{n + 1} = \frac{C_{n-1}}{n} + \frac{2(n-1)}{n(n+1)} = \sum_{k=1}^n \frac{2(k-1)}{k(k+1)} \\
+    \frac{C_n}{n + 1} = \frac{C_{n-1}}{n} + \frac{2(n-1)}{n(n+1)} = \sum_{k=1}^n \frac{2(k-1)}{k(k+1)}
 
     \implies C(n) = n(2\gamma + \ln n - 4) + 1 + 2\gamma + 2\ln n + \frac{5}{6n} - \frac{1}{6 n^2} +\frac{1}{60n^3} + \mathcal{O}\left(\frac{1}{n^4}\right)
-    \end{gather}
 
 where :math:`\gamma` is the Euler-Mascheroni constant. The time complexity is thus :math:`\Theta(n log n)`.
 
