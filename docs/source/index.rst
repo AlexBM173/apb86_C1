@@ -93,7 +93,7 @@ C1 Research Computing and Software Development documentation
 
       Naming conventions
 
-   Python packages distribution
+   Python package distribution
 
       Source and wheels
 
