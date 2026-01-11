@@ -60,6 +60,7 @@ C1 Research Computing and Software Development documentation
       Access your conda environment from Jupyter
 
    Git
+
       What is Git?
 
       Git platforms
@@ -81,7 +82,7 @@ C1 Research Computing and Software Development documentation
       Merge changes between branches
 
 
-   Python packages: Intialisation and file structure
+   Python package intialisation and file structure
 
       What is a Python package?
 
@@ -91,7 +92,7 @@ C1 Research Computing and Software Development documentation
 
       Naming conventions
 
-   Python packages: Distribution
+   Python packages distribution
 
       Source and wheels
 
@@ -169,7 +170,7 @@ C1 Research Computing and Software Development documentation
 
       Differentiable programming
 
-   Backend: FastAPI
+   Backend development with FastAPI
 
       Declaration
 
@@ -183,7 +184,7 @@ C1 Research Computing and Software Development documentation
 
       Endpoint types
 
-   Frontend: Next.js
+   Frontend development with Next.js
 
       Next.js project generator
 
