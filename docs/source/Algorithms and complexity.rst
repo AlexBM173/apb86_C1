@@ -311,7 +311,7 @@ i. If :math:`a < b^d`, then :math:`T(n) = \Theta(n^d)`.
 ii. If :math:`a = b^d`, then :math:`T(n) = \Theta(n^d \log n)`.
 iii. If :math:`a > b^d`, then :math:`T(n) = \Theta(n^{\log_b a})`.
 
-Let's look at an integer multiplication algorithm. Let :math:`x,y` be two integers written in binary as:
+Let's look at an integer multiplication algorithm. Let :math:`x,y` be two :math:`n`-bit integers written in binary as:
 
 .. math::
 
