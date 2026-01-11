@@ -33,20 +33,20 @@ code that is executed if a specific exception is raised. For example:
 
 .. code-block:: python
 
-try:
-    x = 1 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero")
+    try:
+        x = 1 / 0
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
 
 When an exception is raised, it may have values associated with it, known as arguments. These can be accessed in the except clause by specifying
 the exception as a variable using the `as` keyword. For example:
 
 .. code-block:: python
-    
-try:
-    x = int("not a number")
-except ValueError as e:
-    print(f"ValueError occurred: {e}")
+
+    try:
+        x = int("not a number")
+    except ValueError as e:
+        print(f"ValueError occurred: {e}")
 
 It is possible to use the generic ``Exception`` class to catch any exception that is raised, but this is not recommended as it can make debugging 
 more difficult and may hide unexpected errors. It is better to catch specific exceptions that are expected to occur.
